@@ -9,19 +9,19 @@
   "ft ft ft ft ft ft ft";
   border: 2px solid blue;
 }
-.header box{
+.header_box{
   grid-area:hd;
   border: 2px dotted green;
 }
-.footer box{
+.footer_box{
   grid-area: ft; 
   border 2px solid red;
 }
-.sidebar box{
+.sidebar_box{
   grid-area: sd;
   border: 2px solid orange;
 }
-.content box{
+.content_box{
   grid-area: main;
   border: 2px solid black;
 }
