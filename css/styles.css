@@ -4,20 +4,20 @@
   grid-template-rows: 100px 200px 100px;
   grid-template-areas: 
   "hd hd hd hd"
-  "sd . main main main"
+  "sd main main main"
   "ft ft ft ft";
   border: 2px solid blue;
 }
-.header{
+.header box{
   grid-area:hd;
 }
-.footer{
+.footer box{
   grid-area: ft;  
 }
-.sidebar{
+.sidebar box{
   grid-area: sd;
 }
-.content{
+.content box{
   grid-area: main;
 }
 /* If Screen Is Wide Enough */
