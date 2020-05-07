@@ -1,7 +1,7 @@
 .container{
   display:grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 300px 600px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto;
   column-gap: 15px;
   row-gap:  10px;
   grid-template-areas: 
@@ -10,22 +10,23 @@
   "ft ft ft ft ft ft ft";
   border: 2px solid blue;
 }
-.header_box{
+.box{
+   border: 1px solid green;
+   background: #FFFF;
+}
+.header{
   grid-area:hd;
   border: 2px dotted green;
 }
-.footer_box{
+.footer{
   grid-area: ft; 
-  border: 2px solid red;
-}
-.sidebar_box{
+  }
+.sidebar{
   grid-area: sd;
-  border: 2px solid orange;
-}
-.content_box{
+  }
+.content{
   grid-area: main;
-  border: 2px solid black;
-}
+  }
 /* If Screen Is Wide Enough */
 @media(min-width:600px) {
 .container{
