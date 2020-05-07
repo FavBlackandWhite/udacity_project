@@ -8,22 +8,18 @@
   "ft ft ft ft";
   border: 2px solid blue;
 }
-.box{
-    border: 1px solid red;
-    background: #baf974;
-    }
-  .header{
-    grid-area:hd;
-  }
-  .footer{
-    grid-area: ft;  
-  }
-  .sidebar{
-    grid-area: sd;
-  }
-  .content{
-    grid-area: main;
-  }
+.header box{
+  grid-area:hd;
+}
+.footer box{
+  grid-area: ft;  
+}
+.sidebar box{
+  grid-area: sd;
+}
+.content box{
+  grid-area: main;
+}
 /* If Screen Is Wide Enough */
 @media(min-width:600px) {
 .container{
