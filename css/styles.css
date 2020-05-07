@@ -11,15 +11,19 @@
 }
 .header box{
   grid-area:hd;
+  border: 2px dotted green;
 }
 .footer box{
-  grid-area: ft;  
+  grid-area: ft; 
+  border 2px solid red;
 }
 .sidebar box{
   grid-area: sd;
+  border: 2px solid orange;
 }
 .content box{
   grid-area: main;
+  border: 2px solid black;
 }
 /* If Screen Is Wide Enough */
 @media(min-width:600px) {
