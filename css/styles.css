@@ -5,9 +5,9 @@
   column-gap: 15px;
   row-gap:  10px;
   grid-template-areas: 
-  "hd hd hd hd hd"
-  "sd sd sd main main"
-  "ft ft ft ft ft";
+  "hd hd hd hd hd hd hd"
+  "sd sd sd main main main main"
+  "ft ft ft ft ft ft ft";
   border: 2px solid blue;
 }
 .box{
@@ -39,4 +39,15 @@
       "ft ft ft ft ft ft ft";
       border: 5px dotted red;
   }
+@media(min-width:901px){
+.container{
+      display:grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd "
+      "sd sd sd main main main main"
+      "ft ft ft ft ft ft ft";
+      border: 5px dotted purple;
+  } 
 }
