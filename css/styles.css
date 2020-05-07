@@ -6,7 +6,7 @@
   row-gap:  10px;
   grid-template-areas: 
   "hd hd hd hd hd hd hd"
-  "sd sd sd main main main main"
+  "sd sd sd sd main main main"
   "ft ft ft ft ft ft ft";
   border: 2px solid blue;
 }
