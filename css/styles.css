@@ -18,7 +18,7 @@
   grid-template-rows: 50% 50%;
 }
 .nestedGrid > *{
-  border: 2px solid aquamarine;
+  border: 2px dotted aquamarine;
 }
 .box{
     border: 1px solid red;
