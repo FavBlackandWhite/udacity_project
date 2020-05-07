@@ -8,16 +8,16 @@
   "ft ft ft ft";
   border: 2px solid blue;
 }
-.header box{
+.header{
   grid-area:hd;
 }
-.footer box{
+.footer{
   grid-area: ft;  
 }
-.sidebar box{
+.sidebar{
   grid-area: sd;
 }
-.content box{
+.content{
   grid-area: main;
 }
 /* If Screen Is Wide Enough */
